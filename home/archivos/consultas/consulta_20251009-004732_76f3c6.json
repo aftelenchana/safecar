@@ -1,0 +1,123 @@
+{
+    "status": "success",
+    "busqueda": {
+        "parametro": "HERRERA TELENCHANA GABRIELA ALEXANDRA",
+        "tipoPersona": "N",
+        "resultados": 50,
+        "coincidencias": 1,
+        "es_unico": true,
+        "modo": "unico",
+        "metodo_log": "nombres-unico-ruc+cedula"
+    },
+    "data": {
+        "identificacion_detectada": "1804983755001",
+        "tipoPersona_detectado": "R",
+        "ruc_base10": "1804983755",
+        "detalle": {
+            "ruc": {
+                "numeroRuc": "1804983755001",
+                "razonSocial": "HERRERA TELENCHANA GABRIELA ALEXANDRA",
+                "estadoContribuyenteRuc": "ACTIVO",
+                "actividadEconomicaPrincipal": "VENTA AL POR MENOR DE PRENDAS DE VESTIR Y PELETERÍA EN ESTABLECIMIENTOS ESPECIALIZADOS.",
+                "tipoContribuyente": "PERSONA NATURAL",
+                "regimen": "RIMPE",
+                "categoria": "NEGOCIO POPULAR",
+                "obligadoLlevarContabilidad": "NO",
+                "agenteRetencion": "NO",
+                "contribuyenteEspecial": "NO",
+                "informacionFechasContribuyente": {
+                    "fechaInicioActividades": "2018-07-12 00:00:00.0",
+                    "fechaCese": "",
+                    "fechaReinicioActividades": "",
+                    "fechaActualizacion": "2025-04-09 16:40:34.0"
+                },
+                "representantesLegales": [],
+                "motivoCancelacionSuspension": null,
+                "contribuyenteFantasma": "NO",
+                "transaccionesInexistente": "NO",
+                "establecimientos": [
+                    {
+                        "nombreFantasiaComercial": "MIL VARIEDADES G&G",
+                        "tipoEstablecimiento": "OFI",
+                        "direccionCompleta": "TUNGURAHUA \/ AMBATO \/ IZAMBA \/ PEDRO VASCONEZ SN Y RODRIGO PACHANO",
+                        "estado": "ABIERTO",
+                        "numeroEstablecimiento": "001",
+                        "matriz": "NO"
+                    },
+                    {
+                        "nombreFantasiaComercial": null,
+                        "tipoEstablecimiento": "OFI",
+                        "direccionCompleta": "TUNGURAHUA \/ AMBATO \/ MONTALVO \/ AV JUAN MONTALVO SN Y MERCURIAL",
+                        "estado": "CERRADO",
+                        "numeroEstablecimiento": "002",
+                        "matriz": "NO"
+                    },
+                    {
+                        "nombreFantasiaComercial": null,
+                        "tipoEstablecimiento": "MAT",
+                        "direccionCompleta": "TUNGURAHUA \/ AMBATO \/ IZAMBA \/ INDOAMERICA SNN Y PEDRO VASCONEZ",
+                        "estado": "ABIERTO",
+                        "numeroEstablecimiento": "003",
+                        "matriz": "SI"
+                    }
+                ],
+                "direccionMatriz": "TUNGURAHUA \/ AMBATO \/ IZAMBA \/ INDOAMERICA SNN Y PEDRO VASCONEZ",
+                "nombreComercialMatriz": ""
+            },
+            "cedula": {
+                "ok": 1,
+                "CalleDomicilio": "EL PISQUE NN PANAMERICANA",
+                "Cedula": "1804983755",
+                "CodigoError": "000",
+                "CondicionCedulado": "CIUDADANO",
+                "Conyuge": " ",
+                "Domicilio": "TUNGURAHUA\/AMBATO\/IZAMBA",
+                "Error": "NO ERROR",
+                "EstadoCivil": "SOLTERO",
+                "FechaCedulacion": "26\/08\/2025",
+                "FechaNacimiento": "22\/11\/1992",
+                "Genero": "MUJER",
+                "Instruccion": "BACHILLERATO",
+                "LugarNacimiento": "TUNGURAHUA\/AMBATO\/LA MERCED",
+                "Nacionalidad": "ECUATORIANA",
+                "NombreMadre": "TELENCHANA SILVA PAULINA JACQUELINE",
+                "NombrePadre": "HERRERA JAIME FRANKLIN PATRICIO",
+                "Nombre": "HERRERA TELENCHANA GABRIELA ALEXANDRA",
+                "NumeroDomicilio": "NN",
+                "Profesion": "ESTUDIANTE          "
+            },
+            "ruc_base10": "1804983755"
+        },
+        "original": {
+            "identificacion": "1804983755001",
+            "denominacion": null,
+            "tipo": null,
+            "clase": "PERSONA NATURAL",
+            "tipoIdentificacion": "R",
+            "resolucion": null,
+            "nombreComercial": "HERRERA TELENCHANA GABRIELA ALEXANDRA",
+            "direccionMatriz": null,
+            "fechaInformacion": null,
+            "mensaje": null,
+            "estado": null
+        }
+    },
+    "quota": {
+        "mensual_max": null,
+        "usadas_mes": 78,
+        "gratis_restantes": 0,
+        "es_pago": 1,
+        "rango_mes": [
+            "2025-10-01",
+            "2025-10-31"
+        ]
+    },
+    "billing": {
+        "id_producto_api": 13657,
+        "cantidad": 1,
+        "costo_unitario": 0.03,
+        "costo_total": 0.03,
+        "saldo_inicio": 1546.37,
+        "saldo_restante": 1546.34
+    }
+}

@@ -1,0 +1,66 @@
+*{
+      font-family: 'Signika Negative', sans-serif;
+
+}
+body{
+  border-color: #4C5484;
+border-width: 1px;
+border-style: solid;
+border-radius: 9px;
+padding: 10px;
+margin: 10px;
+}
+
+.titulo {
+  text-align: center;
+  margin: 12px;
+}
+.titulo h3{
+  font-family: 'Sacramento', cursive;
+  font-size: 80px;
+  margin: 0;
+  padding: 0;
+}
+.titulo  p{
+  font-size: 35px;
+  padding: 0;
+  margin: 0;
+font-family: 'Dancing Script', cursive;
+}
+.titulo .img_logo{
+  margin: 0 auto;
+  width: 180px;
+  height: 180px;
+}
+.titulo .img_logo img{
+  max-width: 180px;
+  max-height: 180px;
+
+}
+.informacion_personal{
+  width: 320px;
+  padding: 10px;
+
+  display: inline-block;
+  border-color: #4C5484;
+border-width: 1px;
+border-style: solid;
+border-radius: 9px;
+}
+.contenido{
+  text-align: center;
+}
+.informacion_personal .bold{
+  font-weight: bold;
+}
+.img_qr{
+  display: inline-block;
+  padding: 10px;
+}
+.pie_pagina{
+    text-align: center;
+}
+.pie_pagina .log_leben img {
+  width: 250px;
+
+}

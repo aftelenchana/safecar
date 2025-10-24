@@ -1,0 +1,33 @@
+.guibis_tarjeta-card {
+    display: flex;
+    background-color: #f8f9fa;  /* Color de fondo */
+    border-radius: 10px;        /* Radio de borde */
+    overflow: hidden;           /* Ocultar desbordamiento */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.15); /* Sombra */
+    margin: 10px;               /* Margen alrededor de la tarjeta */
+    max-width: 350px;           /* Tamaño máximo de la tarjeta */
+}
+.guibis_tarjeta-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centrado vertical */
+    align-items: start;      /* Alineación horizontal */
+    padding: 10px;           /* Espaciado interno */
+}
+.guibis_tarjeta-img {
+    max-height: 100px; /* Ajustar altura de imagen */
+    width: auto;
+    object-fit: cover;  /* Asegura que la imagen cubra el div sin distorsionar */
+}
+.guibis_tarjeta-scroll  a{
+  display: inline-block;
+  -webkit-overflow-scrolling: touch; /* Para compatibilidad con Chrome */
+}
+.guibis_tarjeta-scroll {
+    display: flex;       /* Establecer el contenedor como flex */
+    flex-wrap: nowrap;   /* Evitar que los elementos se envuelvan */
+  overflow-x: scroll; 
+    width: 100%;         /* Asegurarse de que ocupa toda la anchura necesaria */
+    padding-bottom: 10px;/* Espacio extra para evitar cortes por el scrollbar */
+   -webkit-overflow-scrolling: touch; /* Para compatibilidad con Chrome */
+}

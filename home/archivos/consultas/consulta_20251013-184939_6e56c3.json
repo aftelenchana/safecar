@@ -1,0 +1,74 @@
+{
+    "status": "success",
+    "busqueda": {
+        "parametro": "ARMIJOS CAMPOVERDE CARINA ROCIO",
+        "tipoPersona": "N",
+        "resultados": 50,
+        "coincidencias": 1,
+        "es_unico": true,
+        "modo": "unico",
+        "metodo_log": "nombres-unico-cedula"
+    },
+    "data": {
+        "identificacion_detectada": "1724223423",
+        "tipoPersona_detectado": "N",
+        "ruc_base10": null,
+        "detalle": {
+            "cedula": {
+                "ok": 1,
+                "CalleDomicilio": "LUCHA DE LOS POBRES",
+                "Cedula": "1724223423",
+                "CodigoError": "000",
+                "CondicionCedulado": "CIUDADANO",
+                "Conyuge": "VEGA CHUQUIMARCA LUIS VLADIMIR",
+                "Domicilio": "PICHINCHA\/QUITO\/CHILLOGALLO",
+                "Error": "NO ERROR",
+                "EstadoCivil": "VIUDO",
+                "FechaCedulacion": "17\/08\/2023",
+                "FechaNacimiento": "17\/02\/1989",
+                "Genero": "MUJER",
+                "Instruccion": "SUPERIOR",
+                "LugarNacimiento": "PICHINCHA\/QUITO\/CHILLOGALLO",
+                "Nacionalidad": "ECUATORIANA",
+                "NombreMadre": "CAMPOVERDE VILLA MARIA LETICIA",
+                "NombrePadre": "ARMIJOS ARMIJOS JOSE SALVADOR",
+                "Nombre": "ARMIJOS CAMPOVERDE CARINA ROCIO",
+                "NumeroDomicilio": " ",
+                "Profesion": "ESTUDIANTE          "
+            },
+            "ruc": null,
+            "ruc_base10": null
+        },
+        "original": {
+            "identificacion": "1724223423",
+            "denominacion": null,
+            "tipo": null,
+            "clase": "PERSONA NATURAL",
+            "tipoIdentificacion": "C",
+            "resolucion": null,
+            "nombreComercial": "ARMIJOS CAMPOVERDE CARINA ROCIO",
+            "direccionMatriz": null,
+            "fechaInformacion": null,
+            "mensaje": null,
+            "estado": null
+        }
+    },
+    "quota": {
+        "mensual_max": null,
+        "usadas_mes": 9235,
+        "gratis_restantes": 0,
+        "es_pago": 1,
+        "rango_mes": [
+            "2025-10-01",
+            "2025-10-31"
+        ]
+    },
+    "billing": {
+        "id_producto_api": 13657,
+        "cantidad": 1,
+        "costo_unitario": 0.03,
+        "costo_total": 0.03,
+        "saldo_inicio": 1452.66,
+        "saldo_restante": 1452.63
+    }
+}

@@ -1,0 +1,26 @@
+#consola-apis {
+  --dev-blue-200:#d9f1ff;
+  --dev-blue-100:#e9f7ff;
+  --dev-border:#c7e7ff;
+  --dev-shadow: 0 12px 30px rgba(2,132,199,.12);
+}
+#consola-apis .dev-wrap{
+  background: linear-gradient(180deg, var(--dev-blue-200), var(--dev-blue-100));
+  border:1px solid var(--dev-border);
+  border-radius:16px;
+  box-shadow: var(--dev-shadow);
+}
+#consola-apis .dev-header{
+  background: linear-gradient(90deg,#eff6ff,#e0f2fe);
+  border-bottom:1px dashed #93c5fd;
+  border-radius:16px 16px 0 0;
+}
+#consola-apis .pill{
+  border-radius:999px; padding:.35rem .8rem;
+  border:1px solid var(--dev-border); background:#fff; color:#0b4f6c; font-weight:600;
+}
+#consola-apis .code{
+  background:#0b1220; color:#e5e7eb; border-radius:12px; padding:14px; font-family:ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace; font-size:.9rem;
+  overflow-x:auto;
+}
+#consola-apis #keyBadge code{ user-select:all; word-break: break-all; }

@@ -1,0 +1,202 @@
+/* =========================================================
+   GUISBIS PARQUEADERO - THEME (ENCAPSULADO)
+   No tocamos el <body>. Solo dentro de .guibis-parqueadero
+   ========================================================= */
+
+:root {
+  /* Paleta */
+  --gp-primary: #259bd6;
+  --gp-primary-600: #1b7fb1;
+  --gp-primary-700: #16749f;
+  --gp-accent: #00d4ff;
+  --gp-bg: #ffffff;
+  --gp-bg-soft: #f6f9fb;
+  --gp-text: #25323a;
+  --gp-muted: #6c7a86;
+  --gp-border: #d8e1e8;
+  --gp-shadow: 0 6px 20px rgba(0,0,0,.08);
+
+  /* Dimensiones / radios */
+  --gp-radius: 12px;
+  --gp-radius-sm: 10px;
+  --gp-pad: 16px;
+  --gp-gap: 12px;
+
+  /* Tipografía */
+  --gp-h: 700;
+  --gp-sb: 600;
+  --gp-r: 500;
+  --gp-font: "Inter", system-ui, -apple-system, Segoe UI, Roboto, "Helvetica Neue", Arial, "Noto Sans", "Ubuntu", sans-serif;
+}
+
+/* -------- scope -------- */
+.guibis-parqueadero * {
+  font-family: var(--gp-font) !important;
+  box-sizing: border-box !important;
+}
+
+/* Card principal */
+.guibis-parqueadero .tarjeta_bloque_hr {
+  border: 1px solid var(--gp-border) !important;
+  border-radius: var(--gp-radius) !important;
+  background: var(--gp-bg) !important;
+  box-shadow: var(--gp-shadow) !important;
+  margin: 22px 10px !important;
+}
+
+/* Header card */
+.guibis-parqueadero .card-header-guibis {
+  padding: 12px 16px !important;
+  background: linear-gradient(90deg, var(--gp-primary) 0%, var(--gp-primary-600) 100%) !important;
+  color: #fff !important;
+  font-weight: var(--gp-h) !important;
+  border-top-left-radius: var(--gp-radius) !important;
+  border-top-right-radius: var(--gp-radius) !important;
+}
+.guibis-parqueadero .card-header-guibis h5 {
+  margin: 0 !important;
+  font-size: 18px !important;
+  letter-spacing: .2px !important;
+}
+
+/* Contenido card */
+.guibis-parqueadero .card-block {
+  padding: 18px var(--gp-pad) var(--gp-pad) var(--gp-pad) !important;
+  background: linear-gradient(180deg, var(--gp-bg) 0%, var(--gp-bg-soft) 100%) !important;
+  border-bottom-left-radius: var(--gp-radius) !important;
+  border-bottom-right-radius: var(--gp-radius) !important;
+}
+
+/* Filtros */
+.guibis-parqueadero #procesar_datos .form-group {
+  gap: 8px !important;
+}
+.guibis-parqueadero .label-guibis-sm {
+  font-weight: var(--gp-sb) !important;
+  color: var(--gp-text) !important;
+  white-space: nowrap !important;
+  margin: 0 6px 0 0 !important;
+}
+.guibis-parqueadero .input-guibis-sm,
+.guibis-parqueadero .form-control {
+  border: 1px solid var(--gp-border) !important;
+  border-radius: 10px !important;
+  padding: 8px 12px !important;
+  box-shadow: none !important;
+  outline: none !important;
+  height: 38px !important;
+  background: #fff !important;
+}
+.guibis-parqueadero .form-control:focus {
+  border-color: var(--gp-primary) !important;
+  box-shadow: 0 0 0 3px rgba(37,155,214,.15) !important;
+}
+
+/* Botón Agregar (centrado y grande) */
+.guibis-parqueadero #boton_agregar_mesa {
+  display: block !important;
+  margin: 18px auto 14px auto !important;
+  padding: 12px 28px !important;
+  background: linear-gradient(135deg, var(--gp-primary), var(--gp-primary-600)) !important;
+  color: #fff !important;
+  border: none !important;
+  border-radius: 12px !important;
+  font-weight: var(--gp-sb) !important;
+  font-size: 16px !important;
+  letter-spacing: .2px !important;
+  box-shadow: 0 8px 18px rgba(37,155,214,.25) !important;
+  transition: transform .18s ease, box-shadow .18s ease, filter .18s ease !important;
+}
+.guibis-parqueadero #boton_agregar_mesa:hover {
+  transform: translateY(-2px) !important;
+  filter: brightness(1.02) !important;
+  box-shadow: 0 10px 20px rgba(27,127,177,.28) !important;
+}
+.guibis-parqueadero #boton_agregar_mesa i {
+  margin-left: 6px !important;
+}
+
+/* DataTable — ocultar botones default que no quieres */
+.guibis-parqueadero .dt-buttons { display: none !important; }
+.guibis-parqueadero #tabla_clientes_filter { display: none !important; }
+
+/* Tabla tipo “row-card” */
+.guibis-parqueadero .table {
+  border-collapse: separate !important;
+  border-spacing: 0 10px !important;
+  background: transparent !important;
+  margin-top: 6px !important;
+}
+.guibis-parqueadero .table thead th {
+  background: #eef3f7 !important;
+  color: var(--gp-text) !important;
+  font-weight: var(--gp-sb) !important;
+  border: none !important;
+  text-transform: none !important;
+  text-align: center !important;
+  padding: 10px !important;
+  border-radius: 10px !important;
+}
+.guibis-parqueadero .table tbody tr {
+  background: #fff !important;
+  border-radius: 12px !important;
+  box-shadow: 0 2px 10px rgba(0,0,0,.06) !important;
+}
+.guibis-parqueadero .table tbody tr:hover {
+  transform: scale(1.005) !important;
+  box-shadow: 0 6px 16px rgba(0,0,0,.08) !important;
+}
+.guibis-parqueadero .table tbody td {
+  border: none !important;
+  text-align: center !important;
+  vertical-align: middle !important;
+  padding: 12px 10px !important;
+}
+
+/* Badge de estado dentro de la columna “fecha” si lo usas */
+.guibis-parqueadero .gp-badge {
+  display: inline-block !important;
+  padding: 4px 10px !important;
+  border-radius: 999px !important;
+  font-size: 12px !important;
+  font-weight: var(--gp-sb) !important;
+  line-height: 1 !important;
+}
+.guibis-parqueadero .gp-badge--ok {
+  background: rgba(21, 192, 115, .12) !important;
+  color: #15c073 !important;
+  border: 1px solid rgba(21,192,115,.25) !important;
+}
+.guibis-parqueadero .gp-badge--warn {
+  background: rgba(255, 193, 7, .12) !important;
+  color: #b98900 !important;
+  border: 1px solid rgba(255,193,7,.25) !important;
+}
+
+/* Paginación DataTable */
+.guibis-parqueadero .dataTables_paginate .pagination {
+  gap: 6px !important;
+}
+.guibis-parqueadero .page-item .page-link {
+  border-radius: 10px !important;
+  border: 1px solid var(--gp-border) !important;
+  color: var(--gp-text) !important;
+}
+.guibis-parqueadero .page-item.active .page-link {
+  background: var(--gp-primary) !important;
+  border-color: var(--gp-primary) !important;
+  color: #fff !important;
+  box-shadow: 0 6px 14px rgba(37,155,214,.3) !important;
+}
+
+/* Acciones (iconitos editar/eliminar si los usas) */
+.guibis-parqueadero .gp-actions .btn {
+  padding: 6px 10px !important;
+  border-radius: 8px !important;
+  border: 1px solid var(--gp-border) !important;
+  background: #fff !important;
+}
+.guibis-parqueadero .gp-actions .btn:hover {
+  border-color: var(--gp-primary) !important;
+  box-shadow: 0 0 0 3px rgba(37,155,214,.13) !important;
+}

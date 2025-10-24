@@ -1,0 +1,107 @@
+{
+    "status": "success",
+    "busqueda": {
+        "parametro": "TELENCHANA RUIZ ERNESTO OLMEDO",
+        "tipoPersona": "N",
+        "resultados": 50,
+        "coincidencias": 1,
+        "es_unico": true,
+        "modo": "unico",
+        "metodo_log": "nombres-unico-ruc+cedula"
+    },
+    "data": {
+        "identificacion_detectada": "1801394741001",
+        "tipoPersona_detectado": "R",
+        "ruc_base10": "1801394741",
+        "detalle": {
+            "ruc": {
+                "numeroRuc": "1801394741001",
+                "razonSocial": "TELENCHANA RUIZ ERNESTO OLMEDO",
+                "estadoContribuyenteRuc": "ACTIVO",
+                "actividadEconomicaPrincipal": "FABRICACIÓN DE OTROS TIPOS DE CALZADO DE CUALQUIER MATERIAL Y MEDIANTE CUALQUIER PROCESO, INCLUIDO EL MOLDEADO (APARADO DE CALZADO).",
+                "tipoContribuyente": "PERSONA NATURAL",
+                "regimen": "RIMPE",
+                "categoria": "NEGOCIO POPULAR",
+                "obligadoLlevarContabilidad": "NO",
+                "agenteRetencion": "NO",
+                "contribuyenteEspecial": "NO",
+                "informacionFechasContribuyente": {
+                    "fechaInicioActividades": "2022-09-23 00:00:00.0",
+                    "fechaCese": "",
+                    "fechaReinicioActividades": "",
+                    "fechaActualizacion": ""
+                },
+                "representantesLegales": [],
+                "motivoCancelacionSuspension": null,
+                "contribuyenteFantasma": "NO",
+                "transaccionesInexistente": "NO",
+                "establecimientos": [
+                    {
+                        "nombreFantasiaComercial": null,
+                        "tipoEstablecimiento": "MAT",
+                        "direccionCompleta": "TUNGURAHUA \/ AMBATO \/ IZAMBA \/ VIA A QUITO S\/N",
+                        "estado": "ABIERTO",
+                        "numeroEstablecimiento": "001",
+                        "matriz": "SI"
+                    }
+                ],
+                "direccionMatriz": "TUNGURAHUA \/ AMBATO \/ IZAMBA \/ VIA A QUITO S\/N",
+                "nombreComercialMatriz": ""
+            },
+            "cedula": {
+                "ok": 1,
+                "CalleDomicilio": "AV INDOAMERICA VIA PRINCIPAL P",
+                "Cedula": "1801394741",
+                "CodigoError": "000",
+                "CondicionCedulado": "CIUDADANO",
+                "Conyuge": "CHANGO USULLI MARIANITA DE JESUS",
+                "Domicilio": "TUNGURAHUA\/AMBATO\/IZAMBA",
+                "Error": "NO ERROR",
+                "EstadoCivil": "CASADO",
+                "FechaCedulacion": "13\/12\/2016",
+                "FechaNacimiento": "08\/09\/1958",
+                "Genero": "HOMBRE",
+                "Instruccion": "BASICA",
+                "LugarNacimiento": "TUNGURAHUA\/AMBATO\/IZAMBA",
+                "Nacionalidad": "ECUATORIANA",
+                "NombreMadre": "RUIZ BALVINA",
+                "NombrePadre": "TELENCHANA JOSE IGNACIO",
+                "Nombre": "TELENCHANA RUIZ ERNESTO OLMEDO",
+                "NumeroDomicilio": "SN",
+                "Profesion": "ZAPATERO            "
+            },
+            "ruc_base10": "1801394741"
+        },
+        "original": {
+            "identificacion": "1801394741001",
+            "denominacion": null,
+            "tipo": null,
+            "clase": "PERSONA NATURAL",
+            "tipoIdentificacion": "R",
+            "resolucion": null,
+            "nombreComercial": "TELENCHANA RUIZ ERNESTO OLMEDO",
+            "direccionMatriz": null,
+            "fechaInformacion": null,
+            "mensaje": null,
+            "estado": null
+        }
+    },
+    "quota": {
+        "mensual_max": null,
+        "usadas_mes": 76,
+        "gratis_restantes": 0,
+        "es_pago": 1,
+        "rango_mes": [
+            "2025-10-01",
+            "2025-10-31"
+        ]
+    },
+    "billing": {
+        "id_producto_api": 13657,
+        "cantidad": 1,
+        "costo_unitario": 0.03,
+        "costo_total": 0.03,
+        "saldo_inicio": 1546.43,
+        "saldo_restante": 1546.4
+    }
+}

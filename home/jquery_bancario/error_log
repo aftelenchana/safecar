@@ -1,0 +1,5 @@
+[05-Jan-2023 02:20:26 UTC] PHP Warning:  A non-numeric value encountered in /home/guibis/public_html/home/jquery_bancario/depositos.php on line 218
+[08-Jan-2023 14:24:15 UTC] PHP Notice:  Undefined index: id in /home/guibis/public_html/home/jquery_bancario/estado_financiero.php on line 14
+[08-Jan-2023 14:24:15 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/guibis/public_html/home/jquery_bancario/estado_financiero.php on line 17
+[08-Jan-2023 14:24:15 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/guibis/public_html/home/jquery_bancario/estado_financiero.php on line 29
+[08-Jan-2023 14:24:15 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/guibis/public_html/home/jquery_bancario/estado_financiero.php on line 50

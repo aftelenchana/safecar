@@ -1,0 +1,74 @@
+{
+    "status": "success",
+    "busqueda": {
+        "parametro": "ARMIJOS ARMIJOS JOSE SALVADOR",
+        "tipoPersona": "N",
+        "resultados": 50,
+        "coincidencias": 1,
+        "es_unico": true,
+        "modo": "unico",
+        "metodo_log": "nombres-unico-cedula"
+    },
+    "data": {
+        "identificacion_detectada": "1100275393",
+        "tipoPersona_detectado": "N",
+        "ruc_base10": null,
+        "detalle": {
+            "cedula": {
+                "ok": 1,
+                "CalleDomicilio": "LUCHA DE LOS POBRES MZ X 0",
+                "Cedula": "1100275393",
+                "CodigoError": "000",
+                "CondicionCedulado": "CIUDADANO",
+                "Conyuge": "CAMPOVERDE VILLA MARIA LETICIA",
+                "Domicilio": "PICHINCHA\/QUITO\/CHILLOGALLO",
+                "Error": "NO ERROR",
+                "EstadoCivil": "CASADO",
+                "FechaCedulacion": "07\/04\/2025",
+                "FechaNacimiento": "27\/08\/1943",
+                "Genero": "HOMBRE",
+                "Instruccion": "BASICA",
+                "LugarNacimiento": "LOJA\/PALTAS\/CANGONAMA",
+                "Nacionalidad": "ECUATORIANA",
+                "NombreMadre": "ARMIJOS ROSARIO",
+                "NombrePadre": "ARMIJOS GRANILLO CARLOS DE JESUS",
+                "Nombre": "ARMIJOS ARMIJOS JOSE SALVADOR",
+                "NumeroDomicilio": "1",
+                "Profesion": "JUBILADO            "
+            },
+            "ruc": null,
+            "ruc_base10": null
+        },
+        "original": {
+            "identificacion": "1100275393",
+            "denominacion": null,
+            "tipo": null,
+            "clase": "PERSONA NATURAL",
+            "tipoIdentificacion": "C",
+            "resolucion": null,
+            "nombreComercial": "ARMIJOS ARMIJOS JOSE SALVADOR",
+            "direccionMatriz": null,
+            "fechaInformacion": null,
+            "mensaje": null,
+            "estado": null
+        }
+    },
+    "quota": {
+        "mensual_max": null,
+        "usadas_mes": 9239,
+        "gratis_restantes": 0,
+        "es_pago": 1,
+        "rango_mes": [
+            "2025-10-01",
+            "2025-10-31"
+        ]
+    },
+    "billing": {
+        "id_producto_api": 13657,
+        "cantidad": 1,
+        "costo_unitario": 0.03,
+        "costo_total": 0.03,
+        "saldo_inicio": 1452.6,
+        "saldo_restante": 1452.57
+    }
+}

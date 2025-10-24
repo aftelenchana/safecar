@@ -1,0 +1,5 @@
+{
+    "status": "error",
+    "message": "SRI devolvió HTTP 404 o respuesta vacía",
+    "url": "https:\/\/srienlinea.sri.gob.ec\/movil-servicios\/api\/v1.0\/deudas\/porDenominacion\/Telenchana%20Chango%20Alex%20Fernando?tipoPersona=N&resultados=50"
+}

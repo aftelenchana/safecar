@@ -1,0 +1,107 @@
+{
+    "status": "success",
+    "busqueda": {
+        "parametro": "TELENCHANA CHANGO ALEX FERNANDO",
+        "tipoPersona": "N",
+        "resultados": 50,
+        "coincidencias": 1,
+        "es_unico": true,
+        "modo": "unico",
+        "metodo_log": "nombres-unico-ruc+cedula"
+    },
+    "data": {
+        "identificacion_detectada": "1804843900001",
+        "tipoPersona_detectado": "R",
+        "ruc_base10": "1804843900",
+        "detalle": {
+            "ruc": {
+                "numeroRuc": "1804843900001",
+                "razonSocial": "TELENCHANA CHANGO ALEX FERNANDO",
+                "estadoContribuyenteRuc": "SUSPENDIDO",
+                "actividadEconomicaPrincipal": "ACTIVIDADES DE SERVICIOS DIVERSOS.",
+                "tipoContribuyente": "PERSONA NATURAL",
+                "regimen": "GENERAL",
+                "categoria": null,
+                "obligadoLlevarContabilidad": "NO",
+                "agenteRetencion": "NO",
+                "contribuyenteEspecial": "NO",
+                "informacionFechasContribuyente": {
+                    "fechaInicioActividades": "2018-04-02 00:00:00.0",
+                    "fechaCese": "2021-05-28 00:00:00.0",
+                    "fechaReinicioActividades": "2021-05-28 00:00:00.0",
+                    "fechaActualizacion": "2021-05-28 14:00:17.0"
+                },
+                "representantesLegales": [],
+                "motivoCancelacionSuspension": "DEPURACION",
+                "contribuyenteFantasma": "NO",
+                "transaccionesInexistente": "NO",
+                "establecimientos": [
+                    {
+                        "nombreFantasiaComercial": "LEBEN",
+                        "tipoEstablecimiento": "MAT",
+                        "direccionCompleta": "TUNGURAHUA \/ AMBATO \/ ATAHUALPA (CHISALATA) \/ CUATRO ESQUINAS S\/N",
+                        "estado": "CERRADO",
+                        "numeroEstablecimiento": "001",
+                        "matriz": "SI"
+                    }
+                ],
+                "direccionMatriz": "TUNGURAHUA \/ AMBATO \/ ATAHUALPA (CHISALATA) \/ CUATRO ESQUINAS S\/N",
+                "nombreComercialMatriz": "LEBEN"
+            },
+            "cedula": {
+                "ok": 1,
+                "CalleDomicilio": "BARR MIRAFLORES TARQUI Y",
+                "Cedula": "1804843900",
+                "CodigoError": "000",
+                "CondicionCedulado": "CIUDADANO",
+                "Conyuge": " ",
+                "Domicilio": "PICHINCHA\/QUITO\/MARISCAL SUCRE",
+                "Error": "NO ERROR",
+                "EstadoCivil": "SOLTERO",
+                "FechaCedulacion": "11\/07\/2022",
+                "FechaNacimiento": "07\/05\/2001",
+                "Genero": "HOMBRE",
+                "Instruccion": "BASICA",
+                "LugarNacimiento": "TUNGURAHUA\/AMBATO\/LA MERCED",
+                "Nacionalidad": "ECUATORIANA",
+                "NombreMadre": "CHANGO USULLI MARIANITA DE JESUS",
+                "NombrePadre": "TELENCHANA RUIZ ERNESTO OLMEDO",
+                "Nombre": "TELENCHANA CHANGO ALEX FERNANDO",
+                "NumeroDomicilio": "SN",
+                "Profesion": "ESTUDIANTE          "
+            },
+            "ruc_base10": "1804843900"
+        },
+        "original": {
+            "identificacion": "1804843900001",
+            "denominacion": null,
+            "tipo": null,
+            "clase": "PERSONA NATURAL",
+            "tipoIdentificacion": "R",
+            "resolucion": null,
+            "nombreComercial": "TELENCHANA CHANGO ALEX FERNANDO",
+            "direccionMatriz": null,
+            "fechaInformacion": null,
+            "mensaje": null,
+            "estado": null
+        }
+    },
+    "quota": {
+        "mensual_max": null,
+        "usadas_mes": 71,
+        "gratis_restantes": 0,
+        "es_pago": 1,
+        "rango_mes": [
+            "2025-10-01",
+            "2025-10-31"
+        ]
+    },
+    "billing": {
+        "id_producto_api": 13657,
+        "cantidad": 1,
+        "costo_unitario": 0.03,
+        "costo_total": 0.03,
+        "saldo_inicio": 1546.58,
+        "saldo_restante": 1546.55
+    }
+}
