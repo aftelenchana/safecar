@@ -115,6 +115,11 @@ $url_conect_wsp       =  $result_configuracion['url_wsp'];
       <a class="nav-link" href="tipos_vehiculos"><i class="fas fa-building-columns me-2"></i>Tipos de Vehículos</a>
     </li>
 
+
+    <li class="nav-item">
+      <a class="nav-link" href="tablero_parqueadero"><i class="fas fa-building-columns me-2"></i>Tablero</a>
+    </li>
+
     <!-- API RUC -->
     <li class="nav-item">
       <a class="nav-link toggle-submenu" href="#"><i class="fas fa-id-card me-2"></i> API RUC <i class="fas fa-chevron-down float-end"></i></a>

@@ -145,7 +145,7 @@ $(document).ready(function() {
         });
     });
     $('#tabla_categorias').on('click', '.call_parqueo', function(){
-        $('#modal_editar_caregoria').modal();
+        $('#modal_editar_caregoria').modal('show');
         $(".alerta_editar_caregoria").html('');
         var parqueo = $(this).attr('parqueo');
         var action = 'buscar_informacion_parqueo';
@@ -296,7 +296,7 @@ $(document).ready(function() {
 
   $(function() {
     $('#boton_agregar_mesa').on('click', function() {
-      $('#modal_agregar_categoria').modal();
+      $('#modal_agregar_categoria').modal('show');
       $("#placa").val('');
       $("#nota_extra").val('');
       $(".alerta_ingresar_parqueadero").html('');
